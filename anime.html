@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Otakuden — Episode</title>
+    <title>Anime – Otakuden</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,27 +10,17 @@
 
 <header>
     <h1>Otakuden</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="anime.html">Anime List</a>
-    </nav>
 </header>
 
 <div class="container">
+    <h2 id="animeTitle"></h2>
+    <img id="animeImage" style="width:200px;border-radius:10px;margin-bottom:20px;">
+    <p id="animeDescription"></p>
 
-    <h2 class="player-title" id="animeTitle">Loading...</h2>
-
-    <div class="player-wrapper" id="player">
-        <!-- Magbuzz embed will load here -->
-    </div>
-
+    <h3 style="margin-top:30px;">Episodes</h3>
+    <div id="episodeList"></div>
 </div>
-
-<footer>
-    © 2026 Otakuden — Built for anime fans
-</footer>
 
 <script src="script.js"></script>
 </body>
 </html>
-
